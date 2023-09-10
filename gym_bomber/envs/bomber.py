@@ -1,9 +1,6 @@
 '''
-My OpenAI Gym game environment for CSCI 316 spring 2020
+My OpenAI Gym game environment for Bomber game
 
-Copyright (C) 2020 A. Student
-
-MIT License
 '''
 
 import gymnasium as gym
@@ -24,7 +21,7 @@ class GymBomber(gym.Env):
 
     def step(self, action):
 
-        state = [0]
+        state = np.zeros(1, dtype=np.float32)
         reward = 0
         terminated = False
         truncated = False
@@ -36,9 +33,17 @@ class GymBomber(gym.Env):
 
         pass
 
-    def reset(self):
+    def reset(self, seed=None, options={}):
 
-        return [0]
+        if seed is not None:
+
+            pass  # XXX Seed the random-number generator
+
+        obs = np.zeros(1, dtype=np.float32)
+
+        info = {}
+
+        return obs, info
 
     def close(self):
 
