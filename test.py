@@ -8,7 +8,7 @@ import gymnasium as gym
 from stable_baselines3 import DDPG
 
 env = gym.make('gym_bomber:GymBomber-v0')
-# C:\Users\yogev\Desktop\Msc\DRL\Missile\gym_bomber\Trained_Agents
+
 model = "gym_bomber/Trained_Agents/DDPG_2000_Epoch.zip"
 
 loaded_model = DDPG.load(model)
@@ -29,6 +29,7 @@ for i_episode in range(20):
         observation, reward, terminated, truncated, info = env.step(action)
 
         if terminated or truncated:
+
             print("Episode finished after {} timesteps".format(t+1))
             break
 
