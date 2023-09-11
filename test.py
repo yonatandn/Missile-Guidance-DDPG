@@ -29,6 +29,7 @@ for i_episode in range(20):
         observation, reward, terminated, truncated, info = env.step(action)
 
         if terminated or truncated:
+
             print("Episode finished after {} timesteps".format(t+1))
             break
 
