@@ -6,7 +6,7 @@ Our project focuses on the challenging task of guiding a 2-dimensional free-fall
 
 ```
 % pip3 install gym
-% cd gym-mygame
+% cd gym-bomber
 % sudo python3 setup.py install
 % python3 test.py
 ```
