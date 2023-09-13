@@ -10,5 +10,7 @@ Our project focuses on the challenging task of guiding a 2-dimensional free-fall
 % sudo python3 setup.py install
 % python3 test.py
 ```
+
+## Demonstration
 ![Untitled video - Made with Clipchamp](https://github.com/simondlevy/gym-bomber/assets/79969852/3a697132-2936-451f-baef-82f9356f5120)
 
