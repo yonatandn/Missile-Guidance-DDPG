@@ -12,7 +12,7 @@ from setuptools import setup
 
 setup (name = 'gym_bomber',
     version = '0.1',
-    install_requires = ['gymnasium', 'numpy', 'stable-baselines3'],
+    install_requires = ['gymnasium', 'numpy', 'stable-baselines3', 'matplotlib'],
     description = 'Gym environment for guided bomb game',
     packages = ['gym_bomber', 'gym_bomber.envs'],
     author='Yehonatan Dahan, Yogev Attias',
