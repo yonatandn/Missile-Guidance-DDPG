@@ -14,3 +14,9 @@ Our project focuses on the challenging task of guiding a 2-dimensional free-fall
 ## Demonstration
 ![Untitled video - Made with Clipchamp](https://github.com/simondlevy/gym-bomber/assets/79969852/3a697132-2936-451f-baef-82f9356f5120)
 
+
+## Dependancies
+-gymnasium
+-numpy
+-stable-baselines3
+-matplotlib
