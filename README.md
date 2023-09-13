@@ -16,7 +16,7 @@ Our project focuses on the challenging task of guiding a 2-dimensional free-fall
 
 
 ## Dependancies
--gymnasium
--numpy
--stable-baselines3
--matplotlib
+-gymnasium  
+-numpy  
+-stable-baselines3  
+-matplotlib  
